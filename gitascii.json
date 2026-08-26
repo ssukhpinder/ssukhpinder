@@ -1,0 +1,114 @@
+{
+  "widgets": [
+    {
+      "widgetId": "header",
+      "name": "Header Widget",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 800,
+        "height": 90
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 1,
+      "instanceId": "widget_1787787216779_0"
+    },
+    {
+      "widgetId": "terminal-info",
+      "name": "Terminal-info Widget",
+      "position": {
+        "x": 296,
+        "y": 106
+      },
+      "size": {
+        "width": 504,
+        "height": 280
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 3,
+      "instanceId": "widget_1787787216779_2"
+    },
+    {
+      "widgetId": "languages",
+      "name": "Languages Widget",
+      "position": {
+        "x": 0,
+        "y": 402
+      },
+      "size": {
+        "width": 536,
+        "height": 160
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 4,
+      "instanceId": "widget_1787787216779_3"
+    },
+    {
+      "widgetId": "tech-stack",
+      "name": "Tech-stack Widget",
+      "position": {
+        "x": 544,
+        "y": 402
+      },
+      "size": {
+        "width": 240,
+        "height": 160
+      },
+      "config": {
+        "selectedTechs": [
+          "js",
+          "ts",
+          "html",
+          "css",
+          "py",
+          "rust",
+          "go",
+          "cpp"
+        ],
+        "theme": "dark",
+        "perLine": 4
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6,
+      "instanceId": "widget_1787787216779_5"
+    },
+    {
+      "instanceId": "widget_1787787464236",
+      "widgetId": "github-readme-stats",
+      "name": "Github-readme-stats Widget",
+      "position": {
+        "x": 13,
+        "y": 106
+      },
+      "size": {
+        "width": 267,
+        "height": 276
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 7
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#060606",
+    "textColor": "#e5e5e5",
+    "accentColor": "#c5ff4a",
+    "borderColor": "#252525",
+    "fontFamily": "'JetBrains Mono', monospace",
+    "borderRadius": 0,
+    "padding": 24,
+    "themeMode": "dark",
+    "templateStyle": "native"
+  },
+  "templateId": "minimal"
+}
